@@ -84,3 +84,48 @@ Entendemos que o desafio possui diferentes níveis.
   - Quais seriam os próximos passos
 
 Valorizamos a transparência, a capacidade de priorização e o raciocínio técnico
+
+
+
+## Solução
+
+👉 Passo a passo de como rodar a aplicação
+
+Com todo o projeto já pronto para ser iniciado: 
+- Entre em seu terminal
+- Certifique-se de que está no ambiente correto
+- Digite no terminal "npm install" (sem as aspas) para que as dependências sejam instaladas
+- Depois, digite "npm run dev" (sem as aspas) para que a aplicação seja iniciada
+- Acesse o link dado ao lado de "Local"
+
+E pronto! Você terá como experimentar a solução que foi desenvolvida!
+
+
+💡 O que foi implementado?
+
+- Formulário de cadastro do animal
+- Utilização do componente DatePicker para a seleção da data
+- Armazenamento temporário dos dados cadastrados
+- Exibição dos pets cadastrados no formato proposto
+- Identificação condicional através do tipo do animal
+
+
+❌ Funcionalidades não concluídas
+
+- Persistência nos dados (não houve implementação do banco de dados)
+- Funcionalidades de edição e remoção dos animais cadastrados
+- Validações dos campos do formulário de cadastro
+- Implementação completa da funcionalidade de pesquisa
+- Organização do código em componentes menores
+- Persistência no uso dos mesmos elementos do protótipo indicado
+
+
+👣 Próximos passos
+
+- Implementação da persistência de dados (PostgreeSQL)
+- Desenvolvimento das funcionalidades de edição e remoção dos pets
+- Efetivar o uso da barra de pesquisa
+- Inclusão de mensagens de feedbacks (sucessos e erros do usuário) e validações robustas no cadastro
+- Validar de forma concisa os acessos indevidos
+- Garantir a seguraça do usuário
+- Organização e revisão mais aprofundada do código
